@@ -1,0 +1,11 @@
+.main { max-width: 720px; margin: 0 auto; padding: 3rem 1.25rem; }
+.title { font-size: 2rem; margin: 0 0 0.75rem; letter-spacing: -0.03em; }
+.lead { color: #4b5563; line-height: 1.55; margin: 0 0 1.75rem; }
+.grid { display: grid; gap: 1rem; }
+.tile {
+  display: grid; gap: 0.35rem; padding: 1.1rem 1.2rem; border-radius: 14px;
+  border: 1px solid #d1d5db; text-decoration: none; color: inherit; background: #fff;
+}
+.tile:hover { border-color: #0f766e; }
+.tile strong { color: #0f766e; font-size: 1.1rem; }
+.tile span { color: #6b7280; font-size: 0.95rem; }

@@ -1,0 +1,9 @@
+.nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.9rem 1.25rem; border-bottom: 1px solid #e5e7eb; background: #fff;
+  position: sticky; top: 0; z-index: 10;
+}
+.brand { font-weight: 700; color: #0f172a; text-decoration: none; }
+.links { display: flex; gap: 1rem; }
+.links a { color: #0f766e; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+.links a:hover { text-decoration: underline; }
